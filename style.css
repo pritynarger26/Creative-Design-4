@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+.section-1{
+    background-image: url("images/flower3.jpg");
+    height: 120vh;
+    width: 100%;
+    background-size: cover;
+}
+.sec-1{
+    font-size: 1.2rem;
+    color: #fff;
+}
+.nav-link{
+    font-size: 1rem;
+    color: #fff;
+}
+.icon{
+    font-size: 18px;
+    color: white;
+    margin: 0.2rem;
+}
+.navbar-white a{
+    color: white;
+    margin-right: 1rem;
+    margin-left: 1rem; 
+    
+}
+.white{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.logo{
+    font-size: 2rem;
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+}
+.sec-2{
+    height: 50%;
+}
+.line-h{
+    line-height: 4rem;
+}
+.line-h2{
+    line-height: 3rem;
+}
+a:hover{
+    color: #ffffffb6;
+}
+
+.common {
+    width: 100%;
+    height: 80vh;
+    margin-bottom: 25px;
+  }
+ 
+  .center1 .parent {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .center-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+  }
+  .wrapper {
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.box1{
+    background-image: url(images/flower-img1.jpg);
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    padding: 0;
+}
+.box{
+    opacity: 0%;
+    background-color: rgba(0, 0, 0, 0);
+    height: 80vh;
+    width: 100%;
+    margin: 0;
+}
+.box:hover{
+    opacity: 100%;
+    background-color: rgba(255, 255, 255, 0.568);
+    height: 80vh;
+    width: 100%;
+    margin: 0;
+}
+.box2{
+    background-image: url(images/flower-img2.jpg);
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    padding: 0;
+}
+.box3{
+    background-image: url(images/flower-img3.jpg);
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    padding: 0;
+}
+.para{
+    font-size: 2rem;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500;
+}
+
+.hero2{
+   height: 50vh;
+   width: 100%;
+   background-image: url(images/background.jpg);
+   background-size: cover;
+}
+.para2{
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
+}
+
+.footer{
+    background-color: #F0A8BB;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 760px){
+    .icons{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .nav-ul {
+        display: flex;
+        justify-content: end;
+    }
+    .line-h2{
+
+        line-height: 2rem;
+    }
+}
